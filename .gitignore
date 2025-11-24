@@ -1,0 +1,81 @@
+# Ignore Python cache files
+utilities/__pycache__/
+workflow/__pycache__/
+__pycache__
+*.pyc
+
+# Ignore virtual environment directories
+WREF/
+.env
+environment
+.\.env
+
+# Byte-compiled files
+__pycache__/
+
+# Ingnore Datapipeline Sub Temp Data Directories
+Vector_pipeline/temp_data/
+data_pipeline/cleaned_data/
+
+
+# Distribution / packaging
+.Python
+/abc/
+ENV/
+env.bak/
+*.egg-info/
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+dev_env.py
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python eggs
+*.egg
+*.egg-info/
+.eggs/
+
+# Environment variable files
+.env
+.env_dev
+.venv
+venv
+VirtualEnv
+
+
+# Test coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Logs
+*.log
+
+# Other
+*.pid
+*.lock
+*.pyc
+notebooks
+dev_env.py
+prod_env.py
+./utilities/__pycache__/*.pyc
+Vector_pipeline/handler/__pycache__/
+Vector_pipeline/utilities/__pycache__/
+Vector_pipeline/queries.db
+Vector_pipeline/*.db
+/queries.db
+Vector_pipeline/__pycache__/
+**/__pycache__/
+./utilities/__pycache__\prompt.cpython-310.pyc
+reimg
+env
